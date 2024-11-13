@@ -1,2 +1,2 @@
 # Module
-Modeling, Data Analysis, Parameterization
+Here includes different modules of DigiMic, e.g., Modeling, Data Analysis, Parameterization
