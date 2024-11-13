@@ -3,10 +3,17 @@ This is a modelling module based on resource-consumer theory. "example.jl" can b
 The following package is essential for running:
 
 ForwardDiff
+
 LinearAlgebra
+
 DiffEqBase
+
 Reexport
+
 Distributions
+
 DifferentialEquations
+
 ModelingToolkit
+
 OrdinaryDiffEq
