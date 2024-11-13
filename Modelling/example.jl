@@ -7,7 +7,7 @@
 #we will consider a simple unstructured community where uptake and leakage values are randomly drawn from a dirchlet distribution
 #and all other parameters are set to 1
 #-----------------------------------------------------------------
-#=
+
 include("./MiCRM.jl")
 using .MiCRM
 using DifferentialEquations
@@ -30,7 +30,7 @@ m = ones(N)
 l = copy(rand(du,M)' .* leakage)
 
 param = (N = N, M = M, u = u, m = m, ρ = ρ, ω = ω, l = l, λ = leakage)
-=#
+
 
 
 
